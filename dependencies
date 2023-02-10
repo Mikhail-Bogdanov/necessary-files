@@ -51,6 +51,9 @@ implementation 'com.google.android.gms:play-services-maps:18.1.0'
 /*easy permissions*/
 implementation 'pub.devrel:easypermissions:3.0.0'
 
+/*timber*/
+implementation 'com.jakewharton.timber:timber:5.0.1'
+
 /*other*/
 //noinspection GradleCompatible
 implementation 'com.android.support:appcompat-v7:26.1.0'
