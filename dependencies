@@ -54,14 +54,23 @@ implementation 'pub.devrel:easypermissions:3.0.0'
 /*timber*/
 implementation 'com.jakewharton.timber:timber:5.0.1'
 
-/*other*/
-//noinspection GradleCompatible
-implementation 'com.android.support:appcompat-v7:26.1.0'
-implementation "android.arch.lifecycle:extensions:1.1.1"
-implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
-implementation 'androidx.recyclerview:recyclerview:1.2.1'
+/*charts*/
+implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+/*layouts*/
 implementation("androidx.coordinatorlayout:coordinatorlayout:1.2.0")
 implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+/*tools*/
+implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+/*lifecycle*/
+implementation "android.arch.lifecycle:extensions:1.1.1"
+implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+
+/*appCompat*/
+//noinspection GradleCompatible
+implementation 'com.android.support:appcompat-v7:26.1.0'
 
 /*useless shit*/
 annotationProcessor 'com.google.dagger:hilt-compiler:2.44.2'
