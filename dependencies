@@ -101,3 +101,6 @@ buildscript {
 /*IN PLUGINS*/
 
 id("com.google.dagger.hilt.android") version "2.44" apply false
+
+/*OTHER*/
+android.enableJetifier=true
